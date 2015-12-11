@@ -13,6 +13,6 @@ export default function startServer(store) {
   });
 
   function getState() {
-    return store.getState().toJSA();
+    return store.getState().toJS();
   }
 }
